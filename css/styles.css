@@ -1,5 +1,4 @@
 .column {
-  width: 300px;
   float: left;
   border: 2px solid black;
 }
@@ -19,4 +18,27 @@ img {
 
 #green {
   background-color: green;
+}
+
+@media screen and (min-width: 768px) and (min-height: 1000px){
+  .column {
+    width: 300px;
+    float: left;
+    padding: 20px;
+    background-color: yellow;
+  }
+
+  #blue {
+    background-color: red;
+  }
+
+  #red {
+    background-color: blue;
+  }
+
+  #green {
+    background-color: yellow;
+  }
+
+
 }
